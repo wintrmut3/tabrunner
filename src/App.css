@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Major Mono Display', monospace;
+    
+}
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+  
+.container {
+    background-color: #222831;
+    padding: 1em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: #dddddd;
+    text-align: center;
+    font-size: 2em;
+    margin: 2em;
+}
+
+.editor {
+    background-color: #30475e;
+    border: none;
+    outline: none;
+    resize: none;
+    overflow: auto;
+    width: 80vw;
+    height: 30vw;
+    padding: 1em;
+    color: #ddd;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button{
+    margin: 1em;
+    border: none;
+    padding: 0.5em;
+    background-color: #f05454;
+    font-family: 'Roboto Mono', monospace;
+}
+.button:hover{
+    border: none;
+    background-color: #ce7a35;
+}
+
+.button:active {
+    border: none;
+    background-color: #f5a729;
+}
+button:focus { outline: none; }
